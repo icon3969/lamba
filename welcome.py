@@ -1,7 +1,7 @@
 print("welcome to vscode!")
 
 
-Files >>> Staging Location >>> Local Repository
+Files >>> Staging Location >>> Local Repository >>Remote Repository
 git init
 
 touch repo.py
@@ -37,4 +37,11 @@ git merge feature
 git branch -d feature 
 
 git checkout -b new
+
+
+ssh-keygen -t ed25519 -C "adenijimujeeb3969@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub
+
 
