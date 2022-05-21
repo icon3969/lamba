@@ -55,10 +55,10 @@ git clone sshkey url
 # Commands to check existing keys
 ls -al ~/.ssh
 
-# local >> remote repository
+# local >>> remote repository
 git push origin master
 
-# remote >> local
+# remote >>> local
 git pull origin master
 
 # Advance git command
